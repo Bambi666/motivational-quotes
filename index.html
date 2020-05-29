@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quotes</title>
+    <link rel="stylesheet" href="assets/css/quote.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+
+    <script type="text/javascript" charset="utf-8">
+
+        function colorname() {
+            return '#' + Math.floor(Math.random() * 0xFFFFFF << 0).toString(16);
+        }
+
+
+        window.onload = function () {
+            var everyOneSecond = function () {
+
+                document.body.style.backgroundColor = colorname();
+            };
+
+            setInterval(everyOneSecond, 5000)
+        };
+    </script>
+
+</head>
+
+<body>
+
+
+
+    <div class="container">
+
+
+
+        <p>The best you can is good enough.</p>
+        <p>Do the things you think you cannot do.</p>
+        <p>The bad news is time flies.</p>
+        <p>The good news is you're the pilot.</p>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
